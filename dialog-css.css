@@ -1,0 +1,155 @@
+/*GENERAL*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*MAIN CONTAINER*/
+.dialog-container{
+    border: 10px solid red;
+    border-radius: 5px;
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    top:20%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -100px;
+    background-color: black;
+}
+/*IMAGE BACKGROUND CONTAINER*/
+.img-b{
+    width: 100%;
+}
+/* BannerButtonsGeneral */
+.banner__buttons {
+    margin-top: 16px;
+  }
+  .banner__button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: relative;
+    top:-150px;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 20px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+  }
+  .banner__button img {
+    vertical-align: middle;
+    padding-right: 20px;
+  }
+  
+  /* WhiteButton */
+  #white-btn {
+    color: var(--black);
+    background-color: #fff;
+  }
+  
+  /* LightGrayButton */
+  #lightgray-btn {
+    background-color: rgba(121, 112, 112, 0.322);
+    color: var(--white);
+  }
+  /*ICON CHECK*/
+  .check{
+      position: relative;
+      top:-130px;  
+      background-color: transparent;
+      border: none;
+      padding: 0px;
+      right: 20px;
+  }
+  /*ICON RECOMMEND*/
+  .recommend{
+      position: relative;
+      top:-130px;  
+      background-color: transparent;
+      border: none;
+      padding: 0px;
+      right: 30px;
+  }
+  /*ICON CLOSE DIALOG*/
+  .close{
+    position: absolute;
+    background-color:transparent;
+    border: none;
+    right: 0;
+    top: 0;
+  }
+  /*ROW INFORMATION*/
+  .row-info{
+      background-color:black;
+      height:40px;
+      width: 100%;
+      position: relative;
+      top:-60px;
+      display: flex;
+      flex-direction: row;
+      
+  }
+  /*PARAGRAPH INFORMATION*/
+  .p-info{
+      color:green;
+      margin-left: 20px;
+      font-size: 15px; 
+      display: flex;
+      
+  }
+  .p-info2{
+    color: #fff;
+    font-size: 15px;
+    margin-left:6px;
+  }
+  .p-info3{
+      color: #fff;
+      border: 1px solid white;
+      width: 50px;
+      height: 20px;
+      font-size: 15px;
+      margin-left:6px;
+  }
+  .p-info4{
+    color: #fff;
+    border: 1px solid white;
+    width: 20px;
+    height: 15px;
+    font-size: 12px;
+    margin-left:6px;
+  }
+  /*TRAMA*/
+  .trama{
+      color: #fff;
+      position: relative;
+      padding: 0 16px;
+      font-size: 15px;
+      top:-50px;
+  }
+  /*CAST*/
+  .cast{
+      color: #fff;
+      position:absolute;
+      width: 40%;
+      height: 200px;
+      right: 0;
+      top:0px;
+      
+  }
+  /*SPACE FOR CAST*/
+  .s-cast{
+    margin-top: 10px;
+  
+  }
+  /*TITLE CAST*/
+  strong{
+      color:grey;
+      font-size: 15px;
+  }
